@@ -20,8 +20,3 @@ def float_range(_min, _max, step_size, round_pos=5, is_ascending=True):
 
     for v in value:
         yield v
-
-
-if __name__ == "__main__":
-    for i in float_range(_min=0, _max=100, step_size=1/3):
-        print(i)
