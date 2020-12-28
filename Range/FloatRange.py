@@ -1,4 +1,5 @@
-def float_range(_min, _max, step_size, round_pos=5, is_ascending=True):
+def float_range(min_: float, max_: float, step_size: int, 
+                round_pos: int = 5, is_ascending: bool = True):
     """ iterator for providing range that data-type is float
 
     Arguments:
